@@ -1,0 +1,44 @@
+@use '../util' as u;
+
+.new {
+  background-color: var(--c-darkblue);
+  padding: u.rem(24) u.rem(20);
+
+  @media (width >= u.em(1110)) {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+  }
+
+  &__title {
+    font-size: var(--f-l);
+    color: var(--c-yellow);
+    font-weight: 700;
+  }
+
+  &__post {
+    border-block-end: 1px solid var(--c-gunmetal);
+    padding-block: u.rem(30);
+
+    &:last-child {
+      border: none;
+      padding-block-end: u.rem(0);
+    }
+  }
+
+  &__headline {
+    display: inline-block;
+    font-size: var(--f-s);
+    color: var(--c-offwhite);
+    font-weight: 800;
+    margin-block-end: u.rem(8);
+
+    &:hover {
+      color: var(--c-yellow);
+    }
+  }
+
+  &__description {
+    font-size: var(--f-body);
+    color: var(--c-silver);
+  }
+}

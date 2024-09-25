@@ -1,0 +1,46 @@
+@use '../util' as u;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: u.rem(30);
+
+  @media (width >= u.em(961)) {
+    padding-block: u.rem(90) u.rem(55);
+  }
+
+  &__logo {
+    width: u.rem(45);
+
+    @media (width >= u.em(1110)) {
+      width: u.rem(64);
+    }
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: u.rem(24);
+
+    @media (width >= u.em(961)) {
+      flex-direction: row;
+      gap: u.rem(40);
+    }
+  }
+
+  &__link {
+    color: var(--c-darkblue);
+    font-size: var(--f-xs);
+    line-height: 1.3;
+
+    &:hover {
+      color: var(--c-vermillion);
+    }
+
+    @media (width >= u.em(961)) {
+      font-size: u.rem(16);
+      color: var(--c-gunmetal);
+    }
+  }
+}
