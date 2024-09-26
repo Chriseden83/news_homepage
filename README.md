@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://chriseden-news-homepage.netlify.app/assets/news_preview.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://chriseden-news-homepage.netlify.app)
+- Live Site URL: [News Homepage](https://your-live-site-url.com)
 
 ## My process
 
@@ -41,21 +41,19 @@ Users should be able to:
 - Semantic HTML5 markup
 - SaSS
 - Flexbox
-- CSS Grid
+- CSS Grid / Subgrid
 - Mobile-first workflow
-- Vanilla Javescript
+- Vanilla Javascript
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+I enjoyed learning CSS grid and subgrid along with trying SCSS for the first time albeit the folder structure isn't what I'll be using for future projects. My HTML is changing the more I build projects as I'm understanding the structure to plan before I start to build. Adding the overlay was a challenge as it's not something I'd done before.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I need to become more proficient in javascript so my focus over the next few weeks will be vanilla JS. I'd like to understand accessability along with a CSS framework like Tailwind.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Chriseden83](https://www.frontendmentor.io/profile/@Chriseden83)
+- Twitter - [@Chriseden83](https://www.twitter.com/@Chriseden83)
