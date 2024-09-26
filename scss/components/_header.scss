@@ -4,10 +4,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: u.rem(30);
+  padding-block: u.rem(32);
 
   @media (width >= u.em(961)) {
-    padding-block: u.rem(90) u.rem(55);
+    padding-block: u.rem(80) u.rem(45);
   }
 
   &__logo {

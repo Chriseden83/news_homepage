@@ -92,11 +92,11 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 1.875rem;
+  padding-block: 2rem;
 }
 @media (width >= 60.0625em) {
   .header {
-    padding-block: 5.625rem 3.4375rem;
+    padding-block: 5rem 2.8125rem;
   }
 }
 .header__logo {
@@ -171,7 +171,7 @@ ul {
   display: inline-block;
   justify-self: start;
   background-color: var(--c-vermillion);
-  color: var(--c-offwhite);
+  color: var(--c-darkblue);
   font-size: 0.875rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -180,6 +180,7 @@ ul {
 }
 .feature__link:hover {
   background-color: var(--c-darkblue);
+  color: var(--c-offwhite);
 }
 
 .new {
@@ -284,7 +285,7 @@ ul {
     inset: 0 0 0 32%;
     transform: translateX(110%);
     padding: 9rem 1.5rem;
-    transition: transform 0.35s ease-in-out;
+    transition: transform 0.4s ease-in-out;
     z-index: 1000;
   }
   .nav__content--close {
@@ -316,12 +317,12 @@ ul {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 26, 0.5);
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.5s ease, visibility 0.5s ease;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
   z-index: 900;
 }
 
