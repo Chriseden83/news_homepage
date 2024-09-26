@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://chriseden-news-homepage.netlify.app/assets/news_preview.png)
+![](https://chriseden-news-homepage.netlify.app/assets/images/news_preview.png)
 
 ### Links
 
