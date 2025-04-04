@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://chriseden-news-homepage.netlify.app)
-- Live Site URL: [News Homepage](https://your-live-site-url.com)
+- Live Site URL: [News Homepage](https://chriseden-news-homepage.netlify.app)
 
 ## My process
 
